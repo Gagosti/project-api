@@ -1,5 +1,7 @@
 # API
 
+> Movie catalog service API with filters to facilitate searches.
+
 ## Installing API
 
 Follow these steps:
@@ -28,10 +30,8 @@ It will start the app on **localhost:3000**
 
   ***Postgresql***
 
-- Services (job queues, cache servers, search engines, etc.)
+- Services (filter)
 
-  ***Genre fillter ("tv_show" and "movie")***
+  ***Genre fillter ("tv_show" or "movie")***
 
   ***United States filter ("united_states")***
-
-- How to run the test
