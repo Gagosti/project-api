@@ -6,6 +6,7 @@ Rails.application.routes.draw do
         collection do
           get :tv_show, defaults: { format: :json }
           get :movie, defaults: { format: :json }
+          get :united_states, defaults: { format: :json }
         end
       end
     end

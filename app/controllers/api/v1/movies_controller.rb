@@ -11,4 +11,8 @@ class Api::V1::MoviesController < Api::V1::BaseController
   def movie
     @movies = Movie.where(genre: "Movie")
   end
+
+  def united_states
+    @movies = Movie.where(country: "United States")
+  end
 end
