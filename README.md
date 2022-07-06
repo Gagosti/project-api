@@ -21,13 +21,17 @@ rails s
 It will start the app on **localhost:3000**
 
 - Ruby version
+
   -3.0.3
 
 - Database
+
   -Postgresql
 
 - Services (job queues, cache servers, search engines, etc.)
+
   -Genre fillter ("tv_show" and "movie")
+
   -United States filter ("united_states")
 
 - How to run the test suite
