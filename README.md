@@ -17,7 +17,7 @@ Run the application with
 rails s
 ```
 
-It will start the app on localhost:3000
+It will start the app on **localhost:3000**
 
 
 This README would normally document whatever steps are necessary to get the
