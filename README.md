@@ -1,5 +1,24 @@
 # README
+# API
 
+## :computador: Installing API
+
+Follow these steps:
+Clone this repository and install it dependencies with this command:
+```
+bundle install
+```
+```
+yarn install
+```
+
+## :café: Initializing API
+Run the application with
+```
+rails s
+```
+
+* It will start the app on localhost:3000
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
