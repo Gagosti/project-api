@@ -42,11 +42,11 @@ rake test
 
   ***Genre fillter ("tv_show" or "movie")***
 
-  ***United States filter ("united_states")***
+  ***United States movies filter ("united_states")***
 
-  ***Australia filter ("australia")***
+  ***Australia movies filter ("australia")***
 
-  ***India filter ("india")***
+  ***India movies filter ("india")***
 
   ***Movies between 1971-1999 ("movies_1971_1999")***
 
