@@ -28,8 +28,7 @@ Run the test with
 rake test
 ```
 
-## Runing Tests
-More about the project
+## More about the project
 
 - Ruby version
 
