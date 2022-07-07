@@ -13,6 +13,8 @@ Rails.application.routes.draw do
           get :india, defaults: { format: :json }
           get :movies_1971_1999, defaults: { format: :json }
           get :movies_2000_2021, defaults: { format: :json }
+          get :tv_show_1971_1999, defaults: { format: :json }
+          get :tv_show_2000_2021, defaults: { format: :json }
         end
       end
     end

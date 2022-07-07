@@ -5,11 +5,11 @@ class Api::V1::MoviesController < Api::V1::BaseController
   end
 
   def tv_show
-    @movies = Movie.where(genre: "TV Show")
+    @movies = Movie.where(genre: "TV Show").order(year: :asc)
   end
 
   def movie
-    @movies = Movie.where(genre: "Movie")
+    @movies = Movie.where(genre: "Movie").order(year: :asc)
   end
 
   def united_states
@@ -28,10 +28,18 @@ class Api::V1::MoviesController < Api::V1::BaseController
   end
 
   def movies_1971_1999
-    @movies = Movie.where(year: ("1971").."1999").order(year: :asc)
+    @movies = Movie.where(year: ("1971").."1999").where(genre: "Movie").order(year: :asc)
   end
 
   def movies_2000_2021
-    @movies = Movie.where(year: ("2000").."2021").order(year: :asc)
+    @movies = Movie.where(year: ("2000").."2021").where(genre: "Movie").order(year: :asc)
+  end
+
+  def tv_show_1971_1999
+    @movies = Movie.where(year: ("1971").."1999").where(genre: "TV Show").order(year: :asc)
+  end
+
+  def tv_show_2000_2021
+    @movies = Movie.where(year: ("2000").."2021").where(genre: "TV Show").order(year: :asc)
   end
 end
