@@ -13,6 +13,6 @@ class Api::V1::MoviesController < Api::V1::BaseController
   end
 
   def united_states
-    @movies = Movie.where(country: "United States")
+    @movies = Movie.where(country: "United States").order(year: :asc)
   end
 end
