@@ -1,4 +1,4 @@
-# API
+# MOVIES API
 
 > Movie catalog service API with filters to facilitate searches.
 
