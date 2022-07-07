@@ -52,9 +52,9 @@ rake test
 
   ***Movies between 2000-2021 ("movies_2000_2021")***
 
-  ***Tv Show between 1971-1999 ("tv_show_1971_1999")***
+  ***Tv Shows between 1971-1999 ("tv_show_1971_1999")***
 
-  ***Tv Show between 2000-2021 ("tv_show_2000_2021")***
+  ***Tv Shows between 2000-2021 ("tv_show_2000_2021")***
 
 - Tests (model)
 
