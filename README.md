@@ -22,6 +22,12 @@ rails s
 
 It will start the app on **localhost:3000**
 
+## Runing Tests
+Run the test with
+```
+rake test
+```
+
 - Ruby version
 
   ***3.0.3***
@@ -35,3 +41,13 @@ It will start the app on **localhost:3000**
   ***Genre fillter ("tv_show" or "movie")***
 
   ***United States filter ("united_states")***
+
+- Tests (model)
+
+  ***Movie instance must be valid***
+
+  ***Checking object ownership***
+
+  ***Should not save movie without title***
+
+  ***Should no duplication of records***
