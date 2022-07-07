@@ -42,6 +42,14 @@ rake test
 
   ***United States filter ("united_states")***
 
+  ***Australia filter ("australia")***
+
+  ***India filter ("india")***
+
+  ***Movies between 1971-1999 ("movies_1971_1999")***
+
+  ***Movies between 2000-2021 ("movies_2000_2021")***
+
 - Tests (model)
 
   ***Movie instance must be valid***

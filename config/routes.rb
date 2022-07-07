@@ -9,6 +9,10 @@ Rails.application.routes.draw do
           get :tv_show, defaults: { format: :json }
           get :movie, defaults: { format: :json }
           get :united_states, defaults: { format: :json }
+          get :australia, defaults: { format: :json }
+          get :india, defaults: { format: :json }
+          get :movies_1971_1999, defaults: { format: :json }
+          get :movies_2000_2021, defaults: { format: :json }
         end
       end
     end
