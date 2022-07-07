@@ -28,6 +28,9 @@ Run the test with
 rake test
 ```
 
+## Runing Tests
+More about the project
+
 - Ruby version
 
   ***3.0.3***
