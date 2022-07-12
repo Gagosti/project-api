@@ -20,7 +20,7 @@ Run the application with
 rails s
 ```
 
-It will start the app on **localhost:3000**
+It will start the app on **localhost:3000/api/v1/movies**
 
 ## Runing Tests
 Run the test with
